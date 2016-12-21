@@ -8,5 +8,7 @@
 
 
 # Categories for Category
+Category.create(name: "Ferreteria")
 
-Category.create(name: "Ferreteria", name: "Casa & Jardin", name: "Construccion", name: "Electricidad")
+# active admin seed
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
